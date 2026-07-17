@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeginnerAman - Portfolio</title>
+    <title>BeginnerAman — Developer Portfolio</title>
+    <meta name="description" content="Explore 26+ web projects by BeginnerAman — chat apps, games, utility tools, and more. All built with HTML, CSS, JavaScript & Python.">
+    <meta property="og:title" content="BeginnerAman — Developer Portfolio">
+    <meta property="og:description" content="Explore 26+ web projects by BeginnerAman — chat apps, games, utility tools, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://beginneraman.github.io/Portfolio/">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <div class="logo">
-                    <i class="fas fa-code"></i>
+                <a href="#home" class="logo">
+                    <i class="fas fa-terminal"></i>
                     <span>BeginnerAman</span>
-                </div>
-                <ul class="nav-menu">
+                </a>
+                <ul class="nav-menu" id="navMenu">
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -32,40 +37,44 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- ========== HERO SECTION ========== -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="gradient-text">BeginnerAman</span></h1>
-                <p class="hero-subtitle">Full Stack Developer | Problem Solver | Open Source Enthusiast</p>
-                <p class="hero-description">Crafting beautiful and functional web applications with passion and creativity</p>
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-title"><span class="gradient-text">BeginnerAman</span></h1>
+                <p class="hero-subtitle">Full Stack Developer &bull; Problem Solver &bull; Open Source Enthusiast</p>
+                <p class="hero-description">Crafting beautiful and functional web applications with passion and creativity. From real-time chat platforms to interactive games — explore my work below.</p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="https://github.com/BeginnerAman" class="btn btn-secondary" target="_blank">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="https://github.com/BeginnerAman" class="btn btn-secondary" target="_blank" rel="noopener">
                         <i class="fab fa-github"></i> GitHub Profile
                     </a>
                 </div>
             </div>
-            <div class="hero-illustration">
-                <div class="floating-code">
-                    <i class="fas fa-code"></i>
-                </div>
-            </div>
+        </div>
+        <!-- Decorative background shapes -->
+        <div class="hero-bg-shapes" aria-hidden="true">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- ========== PROJECTS SECTION ========== -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
                 <h2>My Projects</h2>
-                <p>Explore my collection of public repositories and projects</p>
+                <p>Explore my collection of 26 public repositories — click any project to see it live!</p>
             </div>
 
             <!-- Filter Buttons -->
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">
-                    <i class="fas fa-th"></i> All Projects
+                    <i class="fas fa-th"></i> All
                 </button>
                 <button class="filter-btn" data-filter="chat">
                     <i class="fas fa-comments"></i> Chat Apps
@@ -74,27 +83,32 @@
                     <i class="fas fa-gamepad"></i> Games
                 </button>
                 <button class="filter-btn" data-filter="utility">
-                    <i class="fas fa-tools"></i> Utilities
+                    <i class="fas fa-tools"></i> Tools
                 </button>
-                <button class="filter-btn" data-filter="special">
-                    <i class="fas fa-gift"></i> Special
+                <button class="filter-btn" data-filter="webapp">
+                    <i class="fas fa-globe"></i> Web Apps
+                </button>
+                <button class="filter-btn" data-filter="birthday">
+                    <i class="fas fa-gift"></i> Birthday
                 </button>
             </div>
 
-            <!-- Projects Grid -->
+            <!-- Projects Grid (populated by JS) -->
             <div class="projects-grid" id="projectsGrid">
-                <!-- Projects will be loaded here by JavaScript -->
+                <!-- Cards rendered by script.js -->
             </div>
 
             <!-- AI Credit Badge -->
-            <div class="ai-credit">
-                <i class="fas fa-sparkles"></i>
-                <span><strong>Built with GitHub Copilot AI</strong> - All projects & portfolio coded with AI assistance</span>
+            <div class="ai-credit-wrapper">
+                <div class="ai-credit">
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    <span><strong>Built with AI Assistance</strong> — All projects & this portfolio are coded with GitHub Copilot</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- ========== ABOUT SECTION ========== -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
@@ -104,12 +118,12 @@
 
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Passionate Developer & Creator</h3>
-                    <p>I'm a beginner-turned-developer with a passion for building meaningful projects. From chat applications to games and utility tools, I love exploring different areas of web development.</p>
-                    <p>My journey started with curiosity and has evolved into a collection of diverse projects. Each project is a learning experience that helps me grow as a developer.</p>
-                    
+                    <h3>Passionate Developer &amp; Creator</h3>
+                    <p>I'm a self-taught developer with a passion for building meaningful projects. From chat applications to games and utility tools, I love exploring different areas of web development.</p>
+                    <p>My journey started with curiosity and has evolved into a collection of 26+ diverse projects. Each project is a learning experience that helps me grow as a developer.</p>
+
                     <div class="skills-section">
-                        <h4>Skills & Technologies</h4>
+                        <h4>Skills &amp; Technologies</h4>
                         <div class="skills-grid">
                             <div class="skill-item">
                                 <i class="fab fa-html5"></i>
@@ -129,39 +143,39 @@
                             </div>
                             <div class="skill-item">
                                 <i class="fas fa-database"></i>
-                                <span>Database</span>
+                                <span>SQL</span>
                             </div>
                             <div class="skill-item">
-                                <i class="fab fa-git"></i>
+                                <i class="fab fa-git-alt"></i>
                                 <span>Git</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="stats-section">
+                <div class="stats-grid">
                     <div class="stat-card">
-                        <div class="stat-number">22+</div>
+                        <div class="stat-number">26+</div>
                         <div class="stat-label">Public Projects</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Commits</div>
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Chat Apps</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Games Built</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">100%</div>
                         <div class="stat-label">Dedication</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">∞</div>
-                        <div class="stat-label">Learning</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- ========== CONTACT SECTION ========== -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
@@ -185,43 +199,32 @@
                             <p>your.email@example.com</p>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>Your Phone Number</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="social-links">
-                    <a href="https://github.com/BeginnerAman" class="social-link github" target="_blank">
+                    <a href="https://github.com/BeginnerAman" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
                         <i class="fab fa-github"></i>
-                        <span>GitHub</span>
                     </a>
-                    <a href="https://twitter.com" class="social-link twitter" target="_blank">
+                    <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener" aria-label="Twitter">
                         <i class="fab fa-twitter"></i>
-                        <span>Twitter</span>
                     </a>
-                    <a href="https://linkedin.com" class="social-link linkedin" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
+                    <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="https://instagram.com" class="social-link instagram" target="_blank">
+                    <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
-                        <span>Instagram</span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========== FOOTER ========== -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 BeginnerAman. All rights reserved.</p>
-            <p>Made with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
-            <p><i class="fas fa-sparkles"></i> <span>Built with GitHub Copilot AI Assistance</span></p>
+            <p>Made with <span class="heart">&hearts;</span> using HTML, CSS &amp; JavaScript</p>
+            <p><i class="fas fa-wand-magic-sparkles"></i> Built with GitHub Copilot AI Assistance</p>
         </div>
     </footer>
 
