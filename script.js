@@ -230,16 +230,7 @@ const projectsData = [
     liveUrl: 'https://beginneraman.github.io/happy_birthday-n/',
     repoUrl: 'https://github.com/BeginnerAman/happy_birthday-n'
   },
-  {
-    name: 'Birthday Wishes - S',
-    category: 'birthday',
-    icon: '🎁',
-    description: 'Personalized birthday wishes with beautiful animations',
-    language: 'HTML',
-    liveUrl: 'https://beginneraman.github.io/happy-birthday-wishes-s/',
-    repoUrl: 'https://github.com/BeginnerAman/happy-birthday-wishes-s'
-  },
-
+  // add here new 
   // ─── Other ───
   {
     name: 'Movie Recommendation',
