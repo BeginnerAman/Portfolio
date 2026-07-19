@@ -5,6 +5,17 @@
 // ── Project Data ─────────────────────────────────────────────
 // All 26 projects organized by category
 const projectsData = [
+  // ─── ⭐ FEATURED / FLAGSHIP PROJECT ───
+  {
+    name: 'A-Drop — Offline File Sharing',
+    category: 'utility',
+    icon: '📡',
+    description: 'Ultra-fast, 100% offline local file sharing between Windows PC & Mobile via Wi-Fi Hotspot & USB Tethering. AirDrop alternative for Windows.',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/a-drop/',
+    repoUrl: 'https://github.com/BeginnerAman/a-drop'
+  },
+
   // ─── Chat & Messaging Apps ───
   {
     name: 'Real-Time Chat App',
