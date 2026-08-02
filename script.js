@@ -6,13 +6,13 @@
 const projectsData = [
   // ─── FEATURED / FLAGSHIP PROJECT ───
   {
-    name: 'A-Drop — Offline File Sharing',
+    name: 'ADrop — Ultra-Fast File Transfer',
     category: 'utility',
-    icon: 'share-2',
-    description: 'Ultra-fast, 100% offline local file sharing between Windows PC & Mobile via Wi-Fi Hotspot & USB Tethering. AirDrop alternative for Windows.',
+    icon: 'zap',
+    description: 'Transfer files between phone and PC at 150+ MB/s — no internet, no cables, no apps to install. QR code connection, smart clipboard, media preview, and resumable uploads.',
     language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/a-drop/',
-    repoUrl: 'https://github.com/BeginnerAman/a-drop'
+    liveUrl: 'https://beginneraman.github.io/ADrop/',
+    repoUrl: 'https://github.com/BeginnerAman/ADrop'
   },
 
   // ─── Chat & Messaging Apps ───
