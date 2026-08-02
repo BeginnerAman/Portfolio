@@ -3,13 +3,12 @@
 // ============================================================
 
 // ── Project Data ─────────────────────────────────────────────
-// All 26 projects organized by category
 const projectsData = [
-  // ─── ⭐ FEATURED / FLAGSHIP PROJECT ───
+  // ─── FEATURED / FLAGSHIP PROJECT ───
   {
     name: 'A-Drop — Offline File Sharing',
     category: 'utility',
-    icon: '📡',
+    icon: 'share-2',
     description: 'Ultra-fast, 100% offline local file sharing between Windows PC & Mobile via Wi-Fi Hotspot & USB Tethering. AirDrop alternative for Windows.',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/a-drop/',
@@ -18,56 +17,20 @@ const projectsData = [
 
   // ─── Chat & Messaging Apps ───
   {
-    name: 'Real-Time Chat App',
-    category: 'chat',
-    icon: '💬',
-    description: 'Live messaging platform with real-time message delivery and notifications',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/real-time-chat-app/',
-    repoUrl: 'https://github.com/BeginnerAman/real-time-chat-app'
-  },
-  {
-    name: 'Advanced Chat Platform',
-    category: 'chat',
-    icon: '🗨️',
-    description: 'Feature-rich chat application with advanced messaging capabilities',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/advanced-chat-platform/',
-    repoUrl: 'https://github.com/BeginnerAman/advanced-chat-platform'
-  },
-  {
-    name: 'Advanced Messaging System',
-    category: 'chat',
-    icon: '📨',
-    description: 'Sophisticated messaging system with enhanced communication features',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/advanced-messaging-system/',
-    repoUrl: 'https://github.com/BeginnerAman/advanced-messaging-system'
-  },
-  {
     name: 'Group Messaging Platform',
     category: 'chat',
-    icon: '👥',
+    icon: 'users',
     description: 'Collaborative group messaging app for team communication',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/group-messaging-platform/',
     repoUrl: 'https://github.com/BeginnerAman/group-messaging-platform'
-  },
-  {
-    name: 'AGroup Messaging',
-    category: 'chat',
-    icon: '💭',
-    description: 'Alternative group messaging platform with unique features',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/agroup-messaging-platform/',
-    repoUrl: 'https://github.com/BeginnerAman/agroup-messaging-platform'
   },
 
   // ─── Games & Fun ───
   {
     name: 'Roast & Reveal',
     category: 'game',
-    icon: '🔥',
+    icon: 'flame',
     description: 'Fun roasting game that reveals hilarious facts about your friends',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/roast-and-reveal/',
@@ -76,7 +39,7 @@ const projectsData = [
   {
     name: 'Roast & Guess',
     category: 'game',
-    icon: '🎯',
+    icon: 'target',
     description: 'Interactive guessing game with roast-style challenges',
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/roast-and-guess/',
@@ -85,7 +48,7 @@ const projectsData = [
   {
     name: 'Party Roast Multiplayer',
     category: 'game',
-    icon: '🎉',
+    icon: 'party-popper',
     description: 'Multiplayer party game with roasting rounds for group fun',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/party-roast-multiplayer/',
@@ -94,7 +57,7 @@ const projectsData = [
   {
     name: 'Speed Typer Pro',
     category: 'game',
-    icon: '⌨️',
+    icon: 'keyboard',
     description: 'Test your typing speed with challenging texts and leaderboards',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/speed-typer-pro/',
@@ -103,7 +66,7 @@ const projectsData = [
   {
     name: 'Fake Hacker Terminal',
     category: 'game',
-    icon: '🖥️',
+    icon: 'terminal',
     description: 'Realistic hacker terminal simulator for fun and pranks',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/fake-hacker-terminal/',
@@ -112,7 +75,7 @@ const projectsData = [
   {
     name: 'Best Friend Match Quiz',
     category: 'game',
-    icon: '🤝',
+    icon: 'heart-handshake',
     description: 'Find out who your best friend really is with this fun quiz',
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/best-friend-match-quiz/',
@@ -121,7 +84,7 @@ const projectsData = [
   {
     name: 'Catch Me If You Can',
     category: 'game',
-    icon: '🏃',
+    icon: 'footprints',
     description: 'Exciting chase game with BFF mode for competitive fun',
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/catch-me-if-you-can-bff/',
@@ -130,7 +93,7 @@ const projectsData = [
   {
     name: 'Typing Game',
     category: 'game',
-    icon: '🎮',
+    icon: 'gamepad-2',
     description: 'Classic typing game to improve your typing accuracy and speed',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/typing_game/',
@@ -141,72 +104,36 @@ const projectsData = [
   {
     name: 'Dairy Price Calculator',
     category: 'utility',
-    icon: '🥛',
+    icon: 'calculator',
     description: 'Calculate dairy product prices with smart rate computation',
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/dairy-price-calculator/',
     repoUrl: 'https://github.com/BeginnerAman/dairy-price-calculator'
   },
   {
-    name: 'Milk Rate Calculator',
+    name: 'Resume Forge Pro',
     category: 'utility',
-    icon: '📊',
-    description: 'Efficient milk rate calculation tool for dairy business',
-    language: 'HTML',
-    liveUrl: 'https://beginneraman.github.io/milk-rate-calculator/',
-    repoUrl: 'https://github.com/BeginnerAman/milk-rate-calculator'
+    icon: 'file-text',
+    description: 'Professional resume builder with modern templates and easy customization',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/resume-forge-pro/',
+    repoUrl: 'https://github.com/BeginnerAman/resume-forge-pro'
   },
   {
-    name: 'Milk Price Calculator',
+    name: 'Data Wizard Hub',
     category: 'utility',
-    icon: '💰',
-    description: 'Comprehensive milk pricing calculator with multiple features',
-    language: 'HTML',
-    liveUrl: 'https://beginneraman.github.io/Milk_Price_Calculator/',
-    repoUrl: 'https://github.com/BeginnerAman/Milk_Price_Calculator'
-  },
-  {
-    name: 'Compare Price',
-    category: 'utility',
-    icon: '🔍',
-    description: 'Smart price comparison tool to find the best deals',
-    language: 'Python',
-    liveUrl: null,
-    repoUrl: 'https://github.com/BeginnerAman/compare_price'
-  },
-  {
-    name: 'Image Compressor',
-    category: 'utility',
-    icon: '🖼️',
-    description: 'Compress images without losing quality for faster web loading',
-    language: 'Tool',
-    liveUrl: null,
-    repoUrl: 'https://github.com/BeginnerAman/image-compressor'
-  },
-  {
-    name: 'SQL Analytics API',
-    category: 'utility',
-    icon: '📈',
-    description: 'RESTful API for SQL-based data analytics and querying',
-    language: 'SQL',
-    liveUrl: null,
-    repoUrl: 'https://github.com/BeginnerAman/sql-analytics-api'
-  },
-  {
-    name: 'SQL Core Engine',
-    category: 'utility',
-    icon: '⚙️',
-    description: 'Core SQL engine for advanced database operations',
-    language: 'SQL',
-    liveUrl: null,
-    repoUrl: 'https://github.com/BeginnerAman/sql-core-engine'
+    icon: 'database',
+    description: 'Powerful data management and visualization hub for analytics',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/data-wizard-hub/',
+    repoUrl: 'https://github.com/BeginnerAman/data-wizard-hub'
   },
 
   // ─── Web Apps & Websites ───
   {
     name: 'LuxeStay Hotel',
     category: 'webapp',
-    icon: '🏨',
+    icon: 'building-2',
     description: 'Premium hotel booking website with elegant design and features',
     language: 'JavaScript',
     liveUrl: 'https://luxe-stay-hotel-weld.vercel.app',
@@ -215,18 +142,27 @@ const projectsData = [
   {
     name: 'Garden Groves Banquet',
     category: 'webapp',
-    icon: '🌿',
+    icon: 'trees',
     description: 'Beautiful banquet hall and event venue showcase website',
     language: 'CSS',
     liveUrl: 'https://beginneraman.github.io/garden-groves-banquet-bar/',
     repoUrl: 'https://github.com/BeginnerAman/garden-groves-banquet-bar'
+  },
+  {
+    name: 'Aman Playlist Hub',
+    category: 'webapp',
+    icon: 'music',
+    description: 'Curated YouTube playlist showcase with modern, sleek interface',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/aman-playlist-hub/',
+    repoUrl: 'https://github.com/BeginnerAman/aman-playlist-hub'
   },
 
   // ─── Birthday & Special ───
   {
     name: 'Birthday Wishes - Ayush',
     category: 'birthday',
-    icon: '🎂',
+    icon: 'cake',
     description: 'Interactive birthday celebration page for Ayush',
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/birthday-wishes-ayush/',
@@ -235,22 +171,11 @@ const projectsData = [
   {
     name: 'Happy Birthday - N',
     category: 'birthday',
-    icon: '🎈',
+    icon: 'gift',
     description: 'Special animated birthday greeting with stunning effects',
     language: 'CSS',
     liveUrl: 'https://beginneraman.github.io/happy_birthday-n/',
     repoUrl: 'https://github.com/BeginnerAman/happy_birthday-n'
-  },
-  // add here new 
-  // ─── Other ───
-  {
-    name: 'Movie Recommendation',
-    category: 'utility',
-    icon: '🎬',
-    description: 'Smart movie recommendation system based on your preferences',
-    language: 'Python',
-    liveUrl: null,
-    repoUrl: 'https://github.com/BeginnerAman/movie_recommendation'
   }
 ];
 
@@ -289,8 +214,7 @@ function getCategoryName(category) {
 
 /**
  * Creates a single project card DOM element.
- * If the project has a liveUrl the entire card is clickable
- * (except for the "Source" button, which navigates to the repo).
+ * Uses Lucide icons instead of emojis for a professional look.
  *
  * @param {Object} project - Project data object
  * @returns {HTMLElement} The constructed card element
@@ -303,15 +227,18 @@ function createProjectCard(project) {
   const header = document.createElement('div');
   header.className = 'card-header';
 
-  const iconSpan = document.createElement('span');
-  iconSpan.className = 'card-icon';
-  iconSpan.textContent = project.icon;
+  const iconWrapper = document.createElement('div');
+  iconWrapper.className = 'card-icon';
+
+  const iconEl = document.createElement('i');
+  iconEl.setAttribute('data-lucide', project.icon);
+  iconWrapper.appendChild(iconEl);
 
   const badge = document.createElement('span');
   badge.className = 'tech-badge';
   badge.textContent = project.language;
 
-  header.appendChild(iconSpan);
+  header.appendChild(iconWrapper);
   header.appendChild(badge);
 
   // ── Card Body ──
@@ -369,12 +296,9 @@ function createProjectCard(project) {
   card.appendChild(footer);
 
   // ── Make entire card clickable for live projects ──
-  // Clicking anywhere on the card opens the live demo, UNLESS the
-  // user specifically clicked the "Source" button.
   if (project.liveUrl) {
     card.style.cursor = 'pointer';
     card.addEventListener('click', (e) => {
-      // Walk up from the click target to see if it hit the source button
       const isSourceClick = e.target.closest('.btn-source');
       if (!isSourceClick) {
         window.open(project.liveUrl, '_blank', 'noopener,noreferrer');
@@ -422,6 +346,11 @@ function renderProjects(filter = 'all') {
       card.style.transform = 'translateY(0)';
     }, index * 100);
   });
+
+  // Initialize Lucide icons after DOM is updated
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 }
 
 
