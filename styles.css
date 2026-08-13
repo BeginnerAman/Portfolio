@@ -1,5 +1,5 @@
 /* ============================================================
-   DEVELOPER PORTFOLIO — Dark Theme Stylesheet
+   DEVELOPER PORTFOLIO - Dark Theme Stylesheet
    Premium glassmorphism design with purple accent palette
    ============================================================ */
 
@@ -750,7 +750,7 @@ img {
 }
 
 /* ============================================================
-   12. RESPONSIVE — Tablet & Below (≤ 768px)
+   12. RESPONSIVE - Tablet & Below (≤ 768px)
    ============================================================ */
 @media (max-width: 768px) {
   .nav-menu {
@@ -801,7 +801,7 @@ img {
 }
 
 /* ============================================================
-   13. RESPONSIVE — Small Mobile (≤ 480px)
+   13. RESPONSIVE - Small Mobile (≤ 480px)
    ============================================================ */
 @media (max-width: 480px) {
   .container {

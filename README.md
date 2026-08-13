@@ -10,14 +10,14 @@ A beautiful, responsive portfolio website showcasing all public projects and wor
 
 ## Features
 
-- **Responsive Design** — Works perfectly on desktop, tablet, and mobile
-- **Project Filtering** — Filter projects by category (Chat Apps, Games, Utilities, Special)
-- **Smooth Animations** — Beautiful fade-in and scroll animations
-- **Easy Project Management** — Add/remove projects in seconds
-- **Dark Theme** — Modern dark UI with gradient accents
-- **Social Links** — Connect on GitHub, Twitter, LinkedIn, Instagram
-- **Mobile-Friendly Navigation** — Hamburger menu for mobile devices
-- **Lucide Icons** — Professional SVG icons for a clean, modern look
+- **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- **Project Filtering** - Filter projects by category (Chat Apps, Games, Utilities, Special)
+- **Smooth Animations** - Beautiful fade-in and scroll animations
+- **Easy Project Management** - Add/remove projects in seconds
+- **Dark Theme** - Modern dark UI with gradient accents
+- **Social Links** - Connect on GitHub, Twitter, LinkedIn, Instagram
+- **Mobile-Friendly Navigation** - Hamburger menu for mobile devices
+- **Lucide Icons** - Professional SVG icons for a clean, modern look
 
 ---
 
@@ -153,12 +153,12 @@ Learn more about GitHub Copilot: [github.com/features/copilot](https://github.co
 
 ## Technologies Used
 
-- **HTML5** — Semantic markup
-- **CSS3** — Advanced styling, animations, gradients
-- **JavaScript** — Dynamic project loading, interactions
-- **Lucide Icons** — Professional SVG icon library
-- **Font Awesome** — Additional icons
-- **Google Fonts** — Inter font family
+- **HTML5** - Semantic markup
+- **CSS3** - Advanced styling, animations, gradients
+- **JavaScript** - Dynamic project loading, interactions
+- **Lucide Icons** - Professional SVG icon library
+- **Font Awesome** - Additional icons
+- **Google Fonts** - Inter font family
 
 ---
 
@@ -218,11 +218,11 @@ Free to use and modify. Credit to **GitHub Copilot AI** for the intelligent assi
 
 ## Tips
 
-1. **Use Lucide icons for projects** — Professional SVG icons look much better
-2. **Keep descriptions short** — Better readability
-3. **Use descriptive names** — Helps visitors understand projects
-4. **Update contact info** — Make it easy to reach you
-5. **Maintain GitHub links** — Ensure they point to active repos
+1. **Use Lucide icons for projects** - Professional SVG icons look much better
+2. **Keep descriptions short** - Better readability
+3. **Use descriptive names** - Helps visitors understand projects
+4. **Update contact info** - Make it easy to reach you
+5. **Maintain GitHub links** - Ensure they point to active repos
 
 ---
 

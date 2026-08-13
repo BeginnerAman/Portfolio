@@ -6,10 +6,10 @@
 const projectsData = [
   // ─── FEATURED / FLAGSHIP PROJECT ───
   {
-    name: 'ADrop — Ultra-Fast File Transfer',
+    name: 'ADrop - Ultra-Fast File Transfer',
     category: 'utility',
     icon: 'zap',
-    description: 'Transfer files between phone and PC at 150+ MB/s — no internet, no cables, no apps to install. QR code connection, smart clipboard, media preview, and resumable uploads.',
+    description: 'Transfer files between phone and PC at 150+ MB/s - no internet, no cables, no apps to install. QR code connection, smart clipboard, media preview, and resumable uploads.',
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/ADrop/',
     repoUrl: 'https://github.com/BeginnerAman/ADrop'
@@ -409,7 +409,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 // ============================================================
-// Intersection Observer – Fade-In Sections on Scroll
+// Intersection Observer - Fade-In Sections on Scroll
 // ============================================================
 
 const sectionObserver = new IntersectionObserver(
