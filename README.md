@@ -128,14 +128,13 @@ Edit in `styles.css`:
 
 ---
 
-## AI Assistance
+## AI Collaboration & Workflow
 
-This entire portfolio was built with **AI** assistance, providing:
-- Optimized code structure
-- Modern design patterns
-- Responsive layouts
-- Smooth animations
-- Best practices implementation
+This portfolio and its projects are built with an **AI-collaborative engineering workflow**, focusing on:
+- Idea-driven product architecture & UX design
+- High-velocity full-stack software development
+- Modern design patterns & responsive layouts
+- Clean code structure & performance optimization
 
 ---
 

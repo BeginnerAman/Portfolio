@@ -484,7 +484,8 @@ function initTypingEffect() {
   if (!typedTextSpan) return;
 
   const textArray = [
-    'Full Stack Developer',
+    'Idea-Driven Developer',
+    'AI-Collaborative Builder',
     'Creator of ADrop',
     'Problem Solver & Open Source Enthusiast',
     'Building High-Performance Web Apps'
