@@ -15,7 +15,7 @@ const projectsData = [
     repoUrl: 'https://github.com/BeginnerAman/ADrop'
   },
 
-  // ─── Chat & Messaging Apps ───
+  // ─── TOP FEATURED PROJECTS ───
   {
     name: 'Group Messaging Platform',
     category: 'chat',
@@ -24,6 +24,42 @@ const projectsData = [
     language: 'JavaScript',
     liveUrl: 'https://beginneraman.github.io/group-messaging-platform/',
     repoUrl: 'https://github.com/BeginnerAman/group-messaging-platform'
+  },
+  {
+    name: 'Resume Forge Pro',
+    category: 'utility',
+    icon: 'file-text',
+    description: 'Professional resume builder with modern templates and easy customization',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/resume-forge-pro/',
+    repoUrl: 'https://github.com/BeginnerAman/resume-forge-pro'
+  },
+  {
+    name: 'LuxeStay Hotel',
+    category: 'webapp',
+    icon: 'building-2',
+    description: 'Premium hotel booking website with elegant design and features',
+    language: 'JavaScript',
+    liveUrl: 'https://luxe-stay-hotel-weld.vercel.app',
+    repoUrl: 'https://github.com/BeginnerAman/LuxeStay-Hotel'
+  },
+  {
+    name: 'Data Wizard Hub',
+    category: 'utility',
+    icon: 'database',
+    description: 'Powerful data management and visualization hub for analytics',
+    language: 'JavaScript',
+    liveUrl: 'https://beginneraman.github.io/data-wizard-hub/',
+    repoUrl: 'https://github.com/BeginnerAman/data-wizard-hub'
+  },
+  {
+    name: 'Garden Groves Banquet',
+    category: 'webapp',
+    icon: 'trees',
+    description: 'Beautiful banquet hall and event venue showcase website',
+    language: 'CSS',
+    liveUrl: 'https://beginneraman.github.io/garden-groves-banquet-bar/',
+    repoUrl: 'https://github.com/BeginnerAman/garden-groves-banquet-bar'
   },
 
   // ─── Games & Fun ───
@@ -100,7 +136,7 @@ const projectsData = [
     repoUrl: 'https://github.com/BeginnerAman/typing_game'
   },
 
-  // ─── Utility & Tools ───
+  // ─── Utility & Web Apps ───
   {
     name: 'Dairy Price Calculator',
     category: 'utility',
@@ -109,44 +145,6 @@ const projectsData = [
     language: 'HTML',
     liveUrl: 'https://beginneraman.github.io/dairy-price-calculator/',
     repoUrl: 'https://github.com/BeginnerAman/dairy-price-calculator'
-  },
-  {
-    name: 'Resume Forge Pro',
-    category: 'utility',
-    icon: 'file-text',
-    description: 'Professional resume builder with modern templates and easy customization',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/resume-forge-pro/',
-    repoUrl: 'https://github.com/BeginnerAman/resume-forge-pro'
-  },
-  {
-    name: 'Data Wizard Hub',
-    category: 'utility',
-    icon: 'database',
-    description: 'Powerful data management and visualization hub for analytics',
-    language: 'JavaScript',
-    liveUrl: 'https://beginneraman.github.io/data-wizard-hub/',
-    repoUrl: 'https://github.com/BeginnerAman/data-wizard-hub'
-  },
-
-  // ─── Web Apps & Websites ───
-  {
-    name: 'LuxeStay Hotel',
-    category: 'webapp',
-    icon: 'building-2',
-    description: 'Premium hotel booking website with elegant design and features',
-    language: 'JavaScript',
-    liveUrl: 'https://luxe-stay-hotel-weld.vercel.app',
-    repoUrl: 'https://github.com/BeginnerAman/LuxeStay-Hotel'
-  },
-  {
-    name: 'Garden Groves Banquet',
-    category: 'webapp',
-    icon: 'trees',
-    description: 'Beautiful banquet hall and event venue showcase website',
-    language: 'CSS',
-    liveUrl: 'https://beginneraman.github.io/garden-groves-banquet-bar/',
-    repoUrl: 'https://github.com/BeginnerAman/garden-groves-banquet-bar'
   },
   {
     name: 'Aman Playlist Hub',
