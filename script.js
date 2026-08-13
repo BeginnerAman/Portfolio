@@ -6,7 +6,7 @@
 const projectsData = [
   // ─── FEATURED / FLAGSHIP PROJECT ───
   {
-    name: 'ADrop - Ultra-Fast File Transfer',
+    name: 'ADrop - Ultra Fast File Transfer',
     category: 'utility',
     icon: 'zap',
     description: 'Transfer files between phone and PC at 150+ MB/s - no internet, no cables, no apps to install. QR code connection, smart clipboard, media preview, and resumable uploads.',

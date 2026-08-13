@@ -1,6 +1,6 @@
 # BeginnerAman's Portfolio
 
-A beautiful, responsive portfolio website showcasing all public projects and work. Built with modern web technologies and GitHub Copilot AI assistance.
+A beautiful, responsive portfolio website showcasing all public projects and work. Built with modern web technologies and AI assistance.
 
 **Live Preview**: [GitHub Pages](https://BeginnerAman.github.io/Portfolio) *(Deploy using GitHub Pages settings)*
 
@@ -130,14 +130,12 @@ Edit in `styles.css`:
 
 ## AI Assistance
 
-This entire portfolio was built with **GitHub Copilot AI** assistance, providing:
+This entire portfolio was built with **AI** assistance, providing:
 - Optimized code structure
 - Modern design patterns
 - Responsive layouts
 - Smooth animations
 - Best practices implementation
-
-Learn more about GitHub Copilot: [github.com/features/copilot](https://github.com/features/copilot)
 
 ---
 
@@ -202,7 +200,7 @@ Click filter buttons to view projects by category:
 
 ## License
 
-Free to use and modify. Credit to **GitHub Copilot AI** for the intelligent assistance.
+Free to use and modify. Credit to **AI** for assistance.
 
 ---
 
@@ -233,7 +231,7 @@ For issues or suggestions, create an issue in the repository or reach out via th
 ---
 
 **Made with care by BeginnerAman**
-*Powered by GitHub Copilot AI*
+*Powered by AI Assistance*
 
 ---
 
