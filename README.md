@@ -141,7 +141,7 @@ This entire portfolio was built with **AI** assistance, providing:
 
 ## Portfolio Stats
 
-- **Total Projects**: 18+
+- **Total Projects**: 27+
 - **Categories**: 5 (Chat, Games, Utilities, Web Apps, Birthday)
 - **Built with**: HTML5, CSS3, JavaScript
 - **Icons**: Lucide Icons (SVG)
