@@ -259,6 +259,27 @@ img {
   font-size: 1.25rem;
   color: var(--text-secondary);
   margin-bottom: 12px;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.subtitle-handle {
+  font-size: 0.55em;
+  font-weight: 500;
+  color: var(--text-secondary);
+  opacity: 0.85;
+  margin-left: 8px;
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background: var(--accent-secondary);
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: blink 0.8s infinite;
 }
 
 .hero-description {

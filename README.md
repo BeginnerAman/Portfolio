@@ -1,4 +1,4 @@
-# BeginnerAman's Portfolio
+# Aman Vishwakarma (BeginnerAman) - Developer Portfolio
 
 A beautiful, responsive portfolio website showcasing all public projects and work. Built with modern web technologies and AI assistance.
 
@@ -230,7 +230,7 @@ For issues or suggestions, create an issue in the repository or reach out via th
 
 ---
 
-**Made with care by BeginnerAman**
+**Made with care by Aman Vishwakarma (BeginnerAman)**
 *Powered by AI Assistance*
 
 ---

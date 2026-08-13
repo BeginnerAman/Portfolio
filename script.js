@@ -473,12 +473,64 @@ window.addEventListener('resize', () => {
 
 
 // ============================================================
+// Hero Subtitle Typing Effect
+// ============================================================
+
+/**
+ * Initializes a smooth typing effect for the hero section subtitle.
+ */
+function initTypingEffect() {
+  const typedTextSpan = document.getElementById('typedText');
+  if (!typedTextSpan) return;
+
+  const textArray = [
+    'Full Stack Developer',
+    'Creator of ADrop',
+    'Problem Solver & Open Source Enthusiast',
+    'Building High-Performance Web Apps'
+  ];
+  const typingDelay = 90;
+  const erasingDelay = 40;
+  const newTextDelay = 1800;
+  let textArrayIndex = 0;
+  let charIndex = 0;
+
+  function type() {
+    if (charIndex < textArray[textArrayIndex].length) {
+      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, typingDelay);
+    } else {
+      setTimeout(erase, newTextDelay);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, erasingDelay);
+    } else {
+      textArrayIndex++;
+      if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+      setTimeout(type, typingDelay + 300);
+    }
+  }
+
+  setTimeout(type, 500);
+}
+
+
+// ============================================================
 // Initialisation
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', () => {
   // Render all projects on first load
   renderProjects('all');
+
+  // Initialize typing animation effect
+  initTypingEffect();
 
   // Scroll to top so the hero section is in view
   window.scrollTo({ top: 0, behavior: 'smooth' });
