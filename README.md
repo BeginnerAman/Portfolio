@@ -2,9 +2,7 @@
 
 A beautiful, responsive portfolio website showcasing all public projects and work. Built with modern web technologies and AI assistance.
 
-**Live Preview**: [GitHub Pages](https://BeginnerAman.github.io/Portfolio) *(Deploy using GitHub Pages settings)*
-
-**Repository**: [BeginnerAman/Portfolio](https://github.com/BeginnerAman/Portfolio)
+**Live Preview**: [GitHub Pages](https://BeginnerAman.github.io/Portfolio)
 
 ---
 
